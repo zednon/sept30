@@ -1,0 +1,51 @@
+header {
+    background-color: rgb(83, 45, 31);
+    height: auto;
+    
+   
+}
+
+.main {
+    background-color: rgb(204, 196, 123);
+    height: auto;
+}
+
+footer {
+    background-color: rgb(110, 46, 46);
+    height: 300px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navLiTop a{
+   text-decoration: none;
+    color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bioInfo {
+    display: grid;
+    grid-template-columns: 2fr 3fr ;
+    grid-gap: 5px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+
+.navLiTop {
+  display: inline-block;
+  padding: 10px 15px;  
+}
+
+.navTop {
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
